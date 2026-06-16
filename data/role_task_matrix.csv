@@ -1,0 +1,11 @@
+actor_role,core_activity,task_description,robotics_ai_touchpoint,operational_risk
+admin_operator,Pick List Received,"receive pick list, prepare dispatch record",workflow_dashboard,order documentation accuracy
+warehouse_operator,Location Search,locate item area and prepare picking route,AMR_route_support,route inefficiency
+warehouse_operator,Item Picking,pick items from assigned location,robotic_picking_support,wrong item or missing item
+scan_operator,Barcode Scan,scan barcode or label and verify item identity,barcode_ocr_verification,scan failure or label mismatch
+sort_operator,Product Sorting,"sort items by order, category, or destination",automated_sorting,wrong sorting destination
+inspection_operator,Inspection,"check quantity, packaging, and item condition",vision_based_inspection,quantity mismatch or damaged packaging
+packing_operator,Packing,box preparation and item packing,packing_assist,damaged packaging or packing delay
+loading_support,Loading Support,support loading or handoff to outbound area,AMR_AGV_transport,station congestion or safety delay
+floor_supervisor,Exception Review,review exceptions and decide rework path,exception_decision_support,late decision or unclear standard
+admin_operator,Daily Report,"summarize daily workflow, exceptions, and safety notes",operational_intelligence_report,reporting delay or missing event
