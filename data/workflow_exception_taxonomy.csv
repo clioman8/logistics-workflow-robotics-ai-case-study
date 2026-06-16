@@ -1,0 +1,10 @@
+exception_type,definition,typical_stage,robotics_ai_relevance,recommended_response
+label_mismatch,Barcode/label identity does not match expected item.,Barcode Scan,barcode_ocr_verification,Re-scan and supervisor review
+scan_failure,Scanner or label quality prevents successful scan.,Barcode Scan,barcode_ocr_verification,Re-scan or manual verification
+quantity_mismatch,Actual quantity differs from pick list or order record.,Inspection,vision_based_inspection,Re-inspection and quantity reconciliation
+damaged_packaging,Box or item packaging is damaged before shipment.,Inspection/Packing,vision_based_inspection,Repacking and damage note
+wrong_location,Item is found or placed in the wrong location.,Location Search/Product Sorting,AMR_route_support,Location correction and workflow note
+missing_item,Expected item cannot be located or confirmed.,Item Picking/Inspection,robotic_picking_support,Exception review and inventory check
+station_congestion,Work queue accumulates at a station.,Sorting/Packing/Loading,workflow_dashboard,Queue monitoring and load balancing
+safety_delay,Workflow delayed due to safety condition or loading-area issue.,Loading Support,operational_intelligence_report,Safety check and delay report
+temperature_hold,Temperature-sensitive item requires temporary hold.,Inspection/Packing,workflow_dashboard,Cold-chain check and hold release
